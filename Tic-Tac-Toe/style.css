@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 7vmin;
+  color: #fff;
+  background-color: #3a8c9d;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.box:hover {
+  background-color: #2d6a7e;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
+.box:focus {
+  outline: 3px solid #4a90e2;
+}
+
+.btn {
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.25rem;
+  background-color: #4a90e2;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+  background-color: #357abd;
+  transform: scale(1.05);
+}
+
+.btn:focus {
+  outline: 3px solid #357abd;
+  outline-offset: 2px;
+}
+
+#msg {
+  color: #4a90e2;
+  font-size: 4vmin;
+  margin-bottom: 1rem;
+}
+
+.msg-container {
+  height: 30vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .game {
+    height: 50vmin;
+    width: 50vmin;
+  }
+
+  .box {
+    height: 15vmin;
+    width: 15vmin;
+    font-size: 6vmin;
+  }
+
+  #msg {
+    font-size: 3vmin;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 0.4rem 1rem;
+  }
+}
