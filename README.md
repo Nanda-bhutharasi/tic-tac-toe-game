@@ -37,7 +37,7 @@ This is a simple and interactive Tic-Tac-Toe game implemented with HTML, CSS, an
 
 ## screenshots
 
-![Screenshot 2024-07-27 005813](https://github.com/user-attachments/assets/3b4ca7af-2bca-49ed-9b28-c23a09d2f9d1)
+![tic-tac-toe](https://github.com/user-attachments/assets/af4882c4-ac29-4ffe-bad0-fd396841bc4f)
 
 ## Contact
 For any questions or feedback, please contact me at nandubhutharasi@gmail.com
